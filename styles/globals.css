@@ -4,3 +4,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer {
+    .navlink {
+        @apply capitalize px-[22px] py-[8px] rounded-[15px] bg-darkTealBlue 
+        font-poppins cursor-pointer hover:font-bold hover:scale-110 transition-transform
+        duration-200 ease-out
+    }
+}

@@ -2,6 +2,8 @@ import Link from "next/link";
 import React from "react";
 import DarkModeButton from "./DarkModeButton";
 import Image from "next/image";
+import Navlinks from "./Navlinks";
+import SearchBox from "./SearchBox";
 
 const Header = () => {
     return (
@@ -35,12 +37,21 @@ const Header = () => {
                     {/* DARK MODE BUTTON */}
                     <DarkModeButton />
 
-                    <button className="hidden ss:inline font-poppins rounded-[15px] bg-accentRed 
+                    <button className="hidden md:inline font-poppins rounded-[15px] bg-accentRed 
                     text-lightWhite py-[10px] px-[19px] md:text-[18px] text-[16px]">
                         Subscribe
                     </button>
                 </div>
             </div>
+
+            {/* NAV LINKS */}
+            <Navlinks />
+
+            {/* SEARCH BAR */}
+            <SearchBox />
+
+            <div className="border-t-2 mt-[55px] xl:max-w-[1500px] xl:mx-auto mx-10 border-dashed
+            border-[#8E99A1] dark:border-secondaryDark" />
         </header>
     );
 };
