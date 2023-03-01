@@ -50,7 +50,7 @@ const Header = () => {
             {/* SEARCH BAR */}
             <SearchBox />
 
-            <div className="border-t-[2px] mt-[55px] xl:max-w-[1500px] xl:mx-auto mx-10 border-dashed
+            <div className="border-t-[2px] mt-[55px] xl:max-w-[1500px] xl:mx-auto mx-6 border-dashed
             border-[#8E99A1] dark:border-secondaryDark" />
         </header>
     );

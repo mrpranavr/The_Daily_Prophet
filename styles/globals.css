@@ -12,3 +12,12 @@
         duration-200 ease-out
     }
 }
+
+.light-card-shadow {
+    /* box-shadow: 0px 8px 20px -4px rgba(0, 0, 0, 0.15); */
+    box-shadow: 0px 8px 8px 4px rgba(0, 0, 0, 0.15);
+}
+
+.light-card-shadow:hover {
+    box-shadow: 0px 12px 16px 4px rgba(0, 0, 0, 0.15);
+}

@@ -29,5 +29,7 @@ module.exports = {
       secondaryLight: '#6883AF',
     }
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/line-clamp')
+  ],
 }

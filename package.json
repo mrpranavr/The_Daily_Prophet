@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "dev": "next dev --turbo",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start"
   },
@@ -9,8 +9,10 @@
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
     "@mui/material": "^5.11.10",
+    "@tailwindcss/line-clamp": "^0.4.2",
     "graphql": "^16.6.0",
     "graphql-request": "^5.1.0",
+    "line-clamp": "^1.0.0",
     "next": "latest",
     "next-themes": "^0.2.1",
     "react": "18.2.0",
